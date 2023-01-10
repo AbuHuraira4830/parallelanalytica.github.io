@@ -20,9 +20,10 @@
 <body data-aos-easing="ease" data-aos-duration="800" data-aos-delay="100">
 
     <!-- Header -->
-    <header class="header flex align-items ">
+    
+    <header class="header flex align-items">
         <a href="./index.html" rel="home">
-            <img src="./assets/images/logo-small.png" alt="Parallel Analytica" id="logo-small" />
+            <img src="./assets/images/logo-small.png" alt="Parallel Analytica" id="logo-case" />
         </a>
         <nav>
             <label for="check" class="checkbtn">
@@ -30,8 +31,8 @@
             </label>
             <input type="checkbox" id="check">
 
-            <ul class="flex" id="ul-scroll">
-                <li><a href="" class="fw-700 fs-14 font-futura text-primary nav-li" id="nav-li-1">SERVICES</a></li>
+            <ul class="flex " id="ul-scroll">
+                <li><a href="./index.html" class="fw-700 fs-14 font-futura text-primary nav-li" id="nav-li-1">SERVICES</a></li>
                 <li><a href="./casestudies.html" class="fw-700 fs-14 font-futura text-primary nav-li" id="nav-li-2">CASE STUDIES</a></li>
                 <li><a href="" class="fw-700 fs-14 font-futura text-primary nav-li" id="nav-li-3">INTELLIGENCE</a></li>
                 <li><a href="" class="fw-700 fs-14 font-futura text-primary nav-li" id="nav-li-4">CONTACT</a></li>
@@ -69,9 +70,9 @@
         <p class="text-primary fw-400 font-roboto fs-18 lh-31 row justify-content-center align-items">All of this data
             could help inform AirBnB about trends in major cities around the world, and as a result adjust their
             business strategy to be parallel with what the data inform. </p>
-        <iframe width="913" height="720"
+        <iframe 
             src="https://app.powerbi.com/view?r=eyJrIjoiNzg4ZjM3YzYtY2NmNS00Njc4LTllNWYtMmFlZmY3ZWI0ZDY4IiwidCI6IjA3N2I3NjZiLTYxZjAtNGU3Yy05MzczLTkyODgzMmFhOWZlZiIsImMiOjh9"
-            frameborder="0" allowfullscreen="true"></iframe>
+            frameborder="0" allowfullscreen="true" id="airbBnb" ></iframe>
         <!-- ------------------------------------------------------ -->
         <!-- Hotel Bookings -->
         <div class="plate row align-items ">
@@ -93,8 +94,8 @@
             insights to be discovered.</p>
         <iframe frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization" allowtransparency="true"
             allowfullscreen="true" class="tableauViz"
-            style="display: block; width: 875px; height: 712px;  padding: 0px; border: none;"
-            src="https://public.tableau.com/views/HotelBookings_15829885804540/HotelBookings?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;:loadOrderID=0"></iframe>
+            style="display: block;   padding: 0px; border: none;"
+            src="https://public.tableau.com/views/HotelBookings_15829885804540/HotelBookings?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;:loadOrderID=0" id="hotelBookings"></iframe>
 
         <!-- Crime Statistics -->
         <div class="plate row align-items ">
@@ -114,10 +115,10 @@
             (countries), marketing channels, and other features about a booking lead to a higher rate of successful
             bookings that do not cancel or never show up. The dashboard below allows for interaction to yield the many
             insights to be discovered.</p>
-        <iframe width="875" height="725" frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization"
+        <iframe frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization"
             allowtransparency="true" allowfullscreen="true" class="tableauViz"
-            style="display: block; width: 875px; height: 725px;  padding: 0px; border: none;"
-            src="https://public.tableau.com/views/CrimeinDenverCounty/CrimeStatistics?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=yes&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;:loadOrderID=1"></iframe>
+            style="display: block;  padding: 0px; border: none;"
+            src="https://public.tableau.com/views/CrimeinDenverCounty/CrimeStatistics?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=yes&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;:loadOrderID=1" id="crimeStats"></iframe>
            
             <!-- Guttmatcher Institute -->
             <div class="plate row align-items ">
@@ -134,7 +135,7 @@
             </div>
             <p class="text-primary fw-400 font-roboto fs-18 lh-31 row justify-content-center align-items">The Guttmacher Institute conducted a study on women’s contraceptive needs in developing countries. They logged all of the women’s responses featured as data on this dashboard, displaying how contraceptive needs vary by country, region, and contraceptive method.
               </p>
-              <iframe frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block; width: 875px; height: 712px; padding: 0px; border: none;" src="https://public.tableau.com/views/ContraceptiveNeedsAroundtheWorld_16034847454160/ContraceptionNeedsAroundtheWorldAreTheyBeingMet?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;publish=yes&amp;:loadOrderID=2"></iframe>
+              <iframe frameborder="0" marginheight="0" marginwidth="0" title="Data Visualization" allowtransparency="true" allowfullscreen="true" class="tableauViz" style="display: block;  padding: 0px; border: none;" src="https://public.tableau.com/views/ContraceptiveNeedsAroundtheWorld_16034847454160/ContraceptionNeedsAroundtheWorldAreTheyBeingMet?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:tabs=no&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=en&amp;publish=yes&amp;:loadOrderID=2" id="institute"></iframe>
         </div>
 
     <!-------------------------- Slider------------------------------ -->
